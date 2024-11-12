@@ -1,0 +1,5 @@
+def palindrome(s):
+  string = s.replace(' ','')
+  return string == string[::-1]
+
+# palindrome('helleh') -> True
